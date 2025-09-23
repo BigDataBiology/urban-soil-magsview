@@ -181,7 +181,7 @@ view :
     -> Model
     -> View Msg
 view sm route model =
-        { title = "Genome browser"
+        { title = route.params.genome ++ " - Genome details"
         , body =
             [ Html.div []
                 (case getMAG route.params.genome of
