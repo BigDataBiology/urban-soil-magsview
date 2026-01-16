@@ -325,7 +325,7 @@ view model =
                     ] [ Html.text (if model.showFullTaxonomy then " [collapse]" else " [expand]") ]
                 ]
     in
-        { title = "Genome browser"
+        { title = "Shanghai dog gut MAGs: Genomes table"
         , body =
             [ Html.div []
                 [ Html.h1 []

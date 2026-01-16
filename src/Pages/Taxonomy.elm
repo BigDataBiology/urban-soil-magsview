@@ -181,7 +181,7 @@ view model =
     let
         m = model
     in
-        { title = "Taxonomy browser"
+        { title = "Shanghai dog gut MAGs: Taxonomy explorer"
         , body =
             [ Html.div []
                 [ Html.h1 []

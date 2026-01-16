@@ -19,7 +19,7 @@ page shared route =
         , update = \_ _ -> ({}, Effect.none)
         , subscriptions = \_ -> Sub.none
         , view = \_ ->
-            { title = "About"
+            { title = "Shanghai dog gut MAGs"
             , body = [mdToHtml content]
             }
     } |> Page.withLayout (\_ -> Layouts.Main {})
