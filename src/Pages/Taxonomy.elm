@@ -295,7 +295,10 @@ makeModal ms =
     Html.div [HtmlAttr.class "download-modal"]
         [Html.h3 [] [Html.text "Download"]
         , Html.p []
-            [ Html.text <| "You are downloading " ++ String.fromInt (List.length ms) ++ " genomes." ]
+            [ Html.text <| "You are downloading " ++ (
+                if List.length ms == 1
+                    then "a single genome."
+                    else String.fromInt (List.length ms) ++ " genomes.") ]
         ,Html.h4 [] [Html.text "Download links"]
         ,Html.ol []
             (List.map (\m ->
