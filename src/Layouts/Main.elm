@@ -77,6 +77,7 @@ view { toContentMsg, model, content } =
         , W.Styles.baseTheme
         , Html.node "link" [ HtmlAttr.rel "stylesheet", HtmlAttr.href "/magsview.css" ] []
         , Html.node "link" [ HtmlAttr.rel "stylesheet", HtmlAttr.href "/style.css" ] []
+        , Html.div [HtmlAttr.id "google-injection-site"] []
         , Grid.containerFluid []
             [
                 Html.nav []

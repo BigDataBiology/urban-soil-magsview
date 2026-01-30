@@ -19,6 +19,7 @@ import Route.Path
 import Shared.Model
 import Shared.Msg exposing (Msg(..))
 import Http
+import Analytics
 
 import Bootstrap.CDN as CDN
 import Bootstrap.Grid as Grid
@@ -61,7 +62,7 @@ update route msg model =
     case msg of
         Shared.Msg.NoOp ->
             ( model
-            , Effect.none
+            , Effect.sendCmd (Analytics.updatePath <| Route.toString route)
             )
 
 -- SUBSCRIPTIONS
