@@ -1,0 +1,55 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MPILALIFTISTALAPLPTPEYVPANDEAYTLDLEVDGYQNGSMPDDRLMSFEGCTLERDAAYMYALLMEAAEEDGVSLGYEDCYRSYNSQAAAYNSRCPVIETPTFGVDPLTGASVQTGVKSGRVCSGPPTARPGHSNHGWGRAVDFTDGYGVLGCSDATFRWMQGNAHRFGWVHPDWAHCGMSTQEPWHWEFAGVTDPILPGYGQLDPKLLDVVQ",
+            "ArgName": "vanY gene in vanB cluster",
+            "Cut_Off": "Strict",
+            "Identity": 24.4,
+            "Coverage": 80.97,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002956",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MAQFTTYHDCCEDRVVNIHRIADEVDGAIVLSGQTFSLNDHVGQRTLEDGYLPAGTIIAGEVEDTVGGGVSQFTTTLYNVVFWGGYEDVEHKPHSYYFSRYPEGVEATLNWRSPDLKFRNNTDNGILIDTTYTDTSITVRIFGENEGRTLKGEQSDGASRAWVDTEGGPNALHVKGLVSDRFALDRPSGAPL",
+            "ArgName": "vanW gene in vanI cluster",
+            "Cut_Off": "Strict",
+            "Identity": 34.34,
+            "Coverage": 51.47,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3003724",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MPTIEQLVRGGRKPKKKKAKTAALGGAPQRRGVCTRVYTVTPKKPNSALRKVARVRLSSQVEVTAYIPGEGHNLQEHSIVLVRGGRVRDLPGVRYKVIRGALDASGVNDRKQGRSRYGSKKVS",
+            "ArgName": "Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin",
+            "Cut_Off": "Strict",
+            "Identity": 81.82,
+            "Coverage": 99.19,
+            "Drug Class": "aminoglycoside antibiotic",
+            "ARO": "3003395",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MSSEGVVVANNVSYADEPMEGVTPDGVEAAVADRAAEILDRELMIDYGQGELAVPLGTIGFSYDQPATAAAVLSARHEGSVWRQFSSWAISGVATDVIEEQWSFDPEQARMALDNHPGLTPIVVTEPRVEPDGGGRLVLIPGVIGTEADIDALVDQLSEVDLIDPPDRLEIDVEEIHPTVSDETAQATVDRLNSLTGEGVDISVDGKTATLSPAVLQSHLRFTIGDGEVGVAFDSDALHATLENTIVGPVGNFVEPTFDITDDVATVRTPGEPPPVCCQAGAGQWLGEQILDGSSGPFGLHSRPTVEPALAAWADGSAIVEKVSEFTTPHNCCETRVRNIQRIADIVRGVYLVPGETLSLNEYVGPRTVENGFFAAGAIRQGHLIEEVGGGVSQFATTIFNAAYFAGMDFVEYRSHSLYFSRYPYGREATISSPAPDLVMTNTTNYPILIWTSYTDESITVSMYSTKHIEISELDQRTSQRGACTHVETDRQRTYTDGRVVVDTFLADYRPAEGIDCSGNPIPPPPT",
+            "ArgName": "vanW gene in vanI cluster",
+            "Cut_Off": "Strict",
+            "Identity": 31.52,
+            "Coverage": 141.29,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3003724",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MLRPVAGPDLGSADGVPMQPQAAAAWLELKKAARAAGHEFVVSSAYRSPDSQRTQFNSKLRGSTDEAIDAALTWYSIPGTSKHHSGYALDFRYADGTFAEFRDTPDYTWLAADNFYNAKRFGFIPSYPDDVAAQGPNPEPWEFVWVGVDLIECGMPCVDAMTGPRARHPGGVTPADFGLDRNARRKHWRRVPVIG",
+            "ArgName": "vanY gene in vanB cluster",
+            "Cut_Off": "Strict",
+            "Identity": 35.66,
+            "Coverage": 72.76,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002956",
+            "InResfinder": "NA"
+        }
+    ]
+}

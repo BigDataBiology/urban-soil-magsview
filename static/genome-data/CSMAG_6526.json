@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MKIAIIFFFAVLSEVTATTALKLSEGFTKLVPSIVVVVGYGLSFYLLSLSLKVLPIGIAYALWSGIGIVLTVIAGMILWREPLDWARGIGIFLILLGIVIINVFSKSPSH",
+            "ArgName": "qacG",
+            "Cut_Off": "Strict",
+            "Identity": 44.0,
+            "Coverage": 102.8,
+            "Drug Class": "disinfecting agents and antiseptics",
+            "ARO": "3007015",
+            "InResfinder": "NA"
+        }
+    ]
+}

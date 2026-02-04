@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MTSNVVTLRRMTEHDLEMLHEWLNRPHIVEWWGGERPSLEEVHEHYRPRVLAQENVIPYIGLLDGTPFAYAQSYVALGSGDGWWADETDPGVRGIDQSIADPALLGKGLGTHLVRALVALLFTDPHVSRVQTDPAPHNLRAIRCYEKAGFRQVKPIVTPDGPAIYMVRERPAPQEPT",
+            "ArgName": "AAC(6')-IIb",
+            "Cut_Off": "Strict",
+            "Identity": 77.78,
+            "Coverage": 98.33,
+            "Drug Class": "aminoglycoside antibiotic",
+            "ARO": "3002595",
+            "InResfinder": "NA"
+        }
+    ]
+}

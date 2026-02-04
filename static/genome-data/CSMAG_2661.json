@@ -1,0 +1,25 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MITSMNHITLGVTNIDNSFAFYRDVLGLKPLVKWDKGAYFFVGESNVDLLGNGFWFCLNVDEKRMPNPCYTHYAFTVSENNFDTMVDRIISSGCQTFKENTSPGKSLYFLDPDAHKLEIHVGTPEMRIAVKKADAGHWKNVDWFV",
+            "ArgName": "FosA8",
+            "Cut_Off": "Strict",
+            "Identity": 41.91,
+            "Coverage": 102.84,
+            "Drug Class": "phosphonic acid antibiotic",
+            "ARO": "3007371",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MLILTRRVGETIVIGDDVIVTVLGIKGNQVRIGINAPKDVSVHREEIYQRIQQEKNTTPAKPEEVAPVAAATPVVRKKREPKVDKGENNKE",
+            "ArgName": "rsmA",
+            "Cut_Off": "Strict",
+            "Identity": 79.66,
+            "Coverage": 149.18,
+            "Drug Class": "fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic",
+            "ARO": "3005069",
+            "InResfinder": "NA"
+        }
+    ]
+}

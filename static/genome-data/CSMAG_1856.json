@@ -1,0 +1,25 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MIQFNKQKALREQENIERIVQMTYVYLFMAIVAEVIATSSLKTAEGFTRLGPSLVVVCGYIAAFYLLSLVLQSMTVGIAYAIWSGIGIVLLALVGAIAFREMPDAPAVIGMGLIIAGVIVIHVFSQTVRL",
+            "ArgName": "qacG",
+            "Cut_Off": "Strict",
+            "Identity": 41.51,
+            "Coverage": 121.5,
+            "Drug Class": "disinfecting agents and antiseptics",
+            "ARO": "3007015",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MIPIRSFPSSDIQLLPSPITVSINLDSLTSNFQQIRQWIAPSTKILAIIKADAYGHGSVPVAQTLEPLGVYGFGVASVLEGITLREHHIHSPIVVMGPLLPEHLREVIHHRLIPVISRFEIFQQLVDQLPPRKTPFPIHLKVDTGLHRLGFEAGQALSLLPALSTSVSPVEIQGFLTHFADADNHDPTLTNQQIQQFLAFIDQAKRLGVHAPILHMANSAGILFHPTSHLGMVRPGLMLYGYAPRKESASHSIQLQPVMQATTYVAHLRTLQPGEIVGYNALFRTRRPSHIAVLPVGYTHGFPRHLTGVGHVLIQGEQAPIIGKICMDMMMVDVTDIPDPKIGEEVVLLGKQGMRDITAEEYARWLKTIPYEVLCGIGGKANRTYIPRPLDSPPSTTLTPSKKDVRG",
+            "ArgName": "vanT gene in vanG cluster",
+            "Cut_Off": "Strict",
+            "Identity": 37.37,
+            "Coverage": 57.16,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002972",
+            "InResfinder": "NA"
+        }
+    ]
+}

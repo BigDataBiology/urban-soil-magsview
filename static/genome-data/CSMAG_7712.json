@@ -1,0 +1,35 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MFRRFMSLLALVMALLTIFAAAPASGALPPGGTFIDDDGDVHEGSIEAIFAAGLTVGCDERGIRYCPDLSVTRGQMAAFLARALNLPASSDDRFDDDNSSEFEGAINKVAAAGITVGCNPPANNRFCPDRRVTRAEMATFLVRSFPNRVPVTGPDAFVDDNSDVHQGNINRIAAAAITLGCNPPANDRYCPGNPVTRAQMATFLTRALGLQSDKPPAQLPIERVSSFTTFYNCCEDRVINIRAMARQINGYVVMPGETFSVDRIAGPRTTAKGYVPAPYMQGGQGHCCAVGGGVSQFGTTMHNAVFWGGYKVVDHQPHSGWISRYPLGIEATLVYSRSTTSSPTTR",
+            "ArgName": "vanW gene in vanI cluster",
+            "Cut_Off": "Strict",
+            "Identity": 34.4,
+            "Coverage": 92.76,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3003724",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MRAVSQRVTNIHRIADLVRGVYLLPGETFSVNEFVGPRTVARGFVTAGAIRQGHLVEEVGGGVSQFITTTFNAAYFAGLDFDEYRSHTIYFSRYPYGREATLGIPAPDLKLNNTTGYPVLIWPTYDDTSVTVSIYSTKHIEVEELGQRRSPAGACTHVETDRQRTYPDGKVVVDTIVADYRPAEGFDCAGRRIPEPVT",
+            "ArgName": "vanW gene in vanI cluster",
+            "Cut_Off": "Strict",
+            "Identity": 37.93,
+            "Coverage": 53.08,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3003724",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MPTVVVILSLLAALVPGASPEYVPAGDEAYSLDLEVDGYVNGDMASERLMTYRGCTLERDAAYMYALMLEAAEADGIRLAPVDCYRSYGSQKAAYDRRCPITEVDVYSVDPLTGERSQTGTKRTRICTGPPTARPGVSNHGWGRAVDFGDGGGVLGCNDRAMRWMQGNAYRFGWVHPRWAWCDRSTREPWHWEWAGVTDPTLVGYYEFNEDLIQFVE",
+            "ArgName": "vanY gene in vanB cluster",
+            "Cut_Off": "Strict",
+            "Identity": 24.14,
+            "Coverage": 80.97,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002956",
+            "InResfinder": "NA"
+        }
+    ]
+}

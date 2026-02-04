@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MIRDLHQELGIPAGYGRNGNPPAFDEAVDLVDVGPNLVGRMQRLTPMAAARWAEMVAAAAVDGISLLLVSGFRSVDYQAGLIRNKLGNGQTIDEILKVNAAPGFSEHHTGTAVDIATPGSRPLTEQFEATPAYDWLTGNARRFGFSITYPRNNPWGFIYEPWHWSIKVGTVRSTAIRAASGSGRRPRQS",
+            "ArgName": "vanY gene in vanF cluster",
+            "Cut_Off": "Strict",
+            "Identity": 30.83,
+            "Coverage": 64.51,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002958",
+            "InResfinder": "NA"
+        }
+    ]
+}

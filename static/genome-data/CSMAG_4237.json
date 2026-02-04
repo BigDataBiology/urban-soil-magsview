@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MSGTPKVNKERRIPTRKDAAIFRLKTFMLQANRLFDDSIRRRVKSFQSGDAVSEQSVIARSTTPLWTETEPQERVLVAGKIQNLRLAIARLDGVEVPGGEVFSFWKHVGRATRRRGFVKGRELREGCIIPNVGGGLCQISNALYDAAMQANFEIVERHRHTQVVAGSLAETDRDATVFWNYVDLRFRSEKAFRISASLELRQPHR",
+            "ArgName": "vanW gene in vanG cluster",
+            "Cut_Off": "Strict",
+            "Identity": 34.92,
+            "Coverage": 72.95,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002965",
+            "InResfinder": "NA"
+        }
+    ]
+}

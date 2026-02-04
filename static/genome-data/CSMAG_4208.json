@@ -1,0 +1,25 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MLILTRRVGETLMIGDQVTVTVLGVKGNQVRIGITAPKDVAVHREEIYQRIQQEHQAAAGAASGAAAPTPRDATEG",
+            "ArgName": "rsmA",
+            "Cut_Off": "Strict",
+            "Identity": 88.89,
+            "Coverage": 124.59,
+            "Drug Class": "fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic",
+            "ARO": "3005069",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MILRRNRRRRASSHGFGYATYYGDNNRKENPMHRTRATCLAIAIAALFACLSPAYAATPLCAATPPPETAAYAAHVQEINRGLGIPPDYAARHNLRLQPEAKDLVQVPRDVYGRKVEMVAPAAAALKTMFAAAARDGIKLETVSGFRSIAYQVHLVRLKLQRGMGIEQALKINAVPGYSEHQTGCAVDLTTPGVPAADGSFANSRAFTWLQQHGATYGFSLSFPPGNKYGYEYEPWHWRYTAGTATGR",
+            "ArgName": "vanY gene in vanB cluster",
+            "Cut_Off": "Strict",
+            "Identity": 30.16,
+            "Coverage": 92.54,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002956",
+            "InResfinder": "NA"
+        }
+    ]
+}

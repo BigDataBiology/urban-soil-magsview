@@ -1,0 +1,35 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MSHWIYLAIAITAEVVGTSCLKSSEGFTRPGPSAVVVVGYLVSFYFLSLALKTIPVGIAYAVWAGVGVALITLIGWAFFAQSLDIAAIFGIVLIVIGVVVINLFSSSVPHA",
+            "ArgName": "qacG",
+            "Cut_Off": "Strict",
+            "Identity": 45.71,
+            "Coverage": 103.74,
+            "Drug Class": "disinfecting agents and antiseptics",
+            "ARO": "3007015",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MNEHELTGRARTHIIDLDQPRCALHYAVVTSLLAMRDAAARAGIELVPASSFRDFDRQLALWNRKWRGERPLYDRAGRALDHATLREAERVDAILCWSALPGGSRHHWGTDVDVIDAAAMPAGYEVQLLPSEYAPGGVFARLSAWLDDNMQRFGFHRPYGTDRGGAGIEPWHLSYAPVASAAIEALTLPVLKRAIADSDLLGKSFVLERLPEIYTRFILAVDAPPAPTSSRPASAARA",
+            "ArgName": "vanY gene in vanB cluster",
+            "Cut_Off": "Strict",
+            "Identity": 28.39,
+            "Coverage": 88.81,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002956",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MTVAARTQLRSIVDTSALRHNLARVRELAPGSRVAAVVKANAYGHGLVAVARALAASDALAVARLEEGLVLRAAGIDQRVLLLEGVLAPDELEQARRHRLDLMVHSFEQIELLESRPGADPLRVWLKLDTGMNRLGFRSEDFAAAHARLTRVRGLESPPLLVTHLANADERGDPMTVAQLDRFAAATAGYAGERSIANSAGVLAWPASHTDWVRPGLMLYGIAPYPGTTGSDFGLRPAMTFETEVIAVRTVQSGESVGYRALWRAQRESRIAIVACGYGDGYPRATGTGTPVMISGRRAPLVGRVSMDMLTVDVTDLPAVRPGDPVTLWGEGVAVEEVATHAGAIPYELTCGVGQRVRREIR",
+            "ArgName": "vanT gene in vanG cluster",
+            "Cut_Off": "Strict",
+            "Identity": 34.51,
+            "Coverage": 50.84,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002972",
+            "InResfinder": "NA"
+        }
+    ]
+}

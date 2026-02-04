@@ -1,0 +1,35 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MSIWVVVDKLRPLQPMDFEPTDLVSVPVAHTWEPLLRQEASNAVVALFAAAKAEAGLSLASNSAYRSYAAQQNVYVGDDELTARPGFSEHQTGLSIDIGAESGTCSIEVCFADLPEGQWLRDNAHRFGFILRYPADKQAVTGYQFEPWHFRYVGVDLAEEMRATGVTTLEEFFGLPAAPAYQ",
+            "ArgName": "vanY gene in vanM cluster",
+            "Cut_Off": "Strict",
+            "Identity": 42.86,
+            "Coverage": 78.11,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002961",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MSSTGLSHVTFIVSDLDRMEQLLTAVLGAVRVYDSGSDTFSLSEERFFLIGEGDAATWVAIMQGDTVLPRTYNHVAFQVRREDLPALRETITGLGLDIRPPRSRVDGEGDSIYFHDHDGHLFELHAGSLRERLAVYSAGAPSGDAGVLGRSPLRPAAREQGGVLDVDRRAVADHRSRPLLDDERFEVLGQRGQNFREEHRVAMARRQVREHPRRSVPYHEQVPTWAQRPATAGGSRRPSRGRADAGSAW",
+            "ArgName": "FosI",
+            "Cut_Off": "Strict",
+            "Identity": 56.3,
+            "Coverage": 185.82,
+            "Drug Class": "phosphonic acid antibiotic",
+            "ARO": "3007370",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MYDGDGHHRAARLQRTPDGPFHRHRPAVGGVHPRRLLRRHAEGIWLRDNAHRFGFVLRYPADKTDITGYTFEPWHFRFVGLDLANEMRETGTTTLEEFFGLPPAPDYGCSR",
+            "ArgName": "vanY gene in vanA cluster",
+            "Cut_Off": "Strict",
+            "Identity": 47.62,
+            "Coverage": 36.63,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002955",
+            "InResfinder": "NA"
+        }
+    ]
+}

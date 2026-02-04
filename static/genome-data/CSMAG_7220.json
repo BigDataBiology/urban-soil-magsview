@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MDQSSSEVGTPVAGQFALPLRATFGLGDRVRKKSGAAWQGHVVGWYRTKLTPEGYAVESESHPGSVQIYPVAALERVP",
+            "ArgName": "DfrB9",
+            "Cut_Off": "Strict",
+            "Identity": 84.42,
+            "Coverage": 100.0,
+            "Drug Class": "diaminopyrimidine antibiotic",
+            "ARO": "3005350",
+            "InResfinder": "NA"
+        }
+    ]
+}

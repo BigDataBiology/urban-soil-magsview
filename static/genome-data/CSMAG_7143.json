@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MPTIQQLVRQGRSSKVTKSKTPALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVRLNSGIEVTAYIPGEGHNLQEHSIVLVRGGRVRDLPGVRYKIIRGALDAVGVKNRKQARSRYGAKKEK",
+            "ArgName": "Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin",
+            "Cut_Off": "Strict",
+            "Identity": 86.99,
+            "Coverage": 99.19,
+            "Drug Class": "aminoglycoside antibiotic",
+            "ARO": "3003395",
+            "InResfinder": "NA"
+        }
+    ]
+}

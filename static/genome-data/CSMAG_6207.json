@@ -1,0 +1,15 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MSLLEILRELECELHEPGTRGNRGRLAQLLHPAFREFGCSGAVGSREEVIAHLLAETESPKVVAHGFVVLERAPSVVLLTYQSAHVSAAGSLRSATRIALRSGCAKVLVPQMVFHQGTPTSPFSTMLPNPSLHPKCYSGLCNGRLKPWAKSQSHRPNQAVDMDQQIPSRHSQERLGMDQSSNEVSTPVAGQFALPLRATFGLGDRVRKKSGAAWQGQVVGWYCTKLTPEGYAVESESHPGSVQIYPVAALERVA",
+            "ArgName": "dfrB10",
+            "Cut_Off": "Strict",
+            "Identity": 100.0,
+            "Coverage": 325.64,
+            "Drug Class": "diaminopyrimidine antibiotic",
+            "ARO": "3007489",
+            "InResfinder": "NA"
+        }
+    ]
+}

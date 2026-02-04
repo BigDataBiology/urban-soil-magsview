@@ -1,0 +1,25 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MRMHQPLSKPQYRSPLRMKLGKAWFVTKRRVQWYLPGKRYAVSRSAMQLQYQHASHRTPLLRQLKGVDMWLQHNKVESLKVAASCLDGLLLRPGETFSFWRLVGRPTAKRGFKTGLVLRNGTVAQGMGGGLCQMTNLIYWMALHTELSITERWRHGFDVFPDEGRSQPFASGATCSYNYIDLQITNKTASTHQLRIWVEGDYLRGEWRADVNPRFAYKIVERDHAIRTEWWGGYSRHNSLHRMVHDIETGTDRGEEFITENHAIMMYAPLLENQEPTP",
+            "ArgName": "vanW gene in vanB cluster",
+            "Cut_Off": "Strict",
+            "Identity": 34.4,
+            "Coverage": 101.09,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002964",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MVEGLSHITFIVRDLDRMEKILVSVLGARKIYDSGDNTFSVSRERFFLAGEESAPIWLAIMEGESLPTRTYNHVAFKISEADYPACLERVQALGLEVREGRSRVEGEGRSIYFHDHDNHLFELHTGTLEERLKRYAQTKK",
+            "ArgName": "FosI",
+            "Cut_Off": "Strict",
+            "Identity": 59.7,
+            "Coverage": 104.48,
+            "Drug Class": "phosphonic acid antibiotic",
+            "ARO": "3007370",
+            "InResfinder": "NA"
+        }
+    ]
+}

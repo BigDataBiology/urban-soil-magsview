@@ -1,0 +1,25 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MNSILRWAWAEVDLDAIAHNVGVLRDTVAPSAVWAVVKADGYGHGAPQVAAAALEAGAQGLCVALVTEGVALRSAGIDAPILVLSEQPHDAAATIVEHRLTPTVYTRRYVDALVAARPDRLPVHLKIDTGMQRVGAHPHTVAALVASIQERSPSVELVGVFTHLAVADEPNDPFTATQLARFDDALTHVPDGLAVHVANSAGALVHPAARRSFVRAGIAVYGISPGAGVDSLAAALRPAMALKARIAYVKQARSGSRISYGRRYQFARDSTVATIPLGYADGVPRRLSSTTDRPGGNVLIRGRRCPIVGTITMDQFMVDCGDLEVRAGEEVVLIGEQEGPDGVERITATDWGDQLGTIGYEIVCGISPRVPRVYIGRP",
+            "ArgName": "vanT gene in vanG cluster",
+            "Cut_Off": "Strict",
+            "Identity": 36.54,
+            "Coverage": 53.09,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002972",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MPTIQQLVRQGRSSKVTKSKTPALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVRLNSGIEVTAYIPGEGHNLQEHSIVLVRGGRVRDLPGVRYKIIRGALDAVGVKNRKQSRSRYGAKKDK",
+            "ArgName": "Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin",
+            "Cut_Off": "Strict",
+            "Identity": 85.37,
+            "Coverage": 99.19,
+            "Drug Class": "aminoglycoside antibiotic",
+            "ARO": "3003395",
+            "InResfinder": "NA"
+        }
+    ]
+}

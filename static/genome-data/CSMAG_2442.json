@@ -1,0 +1,25 @@
+{
+    "16S": [],
+    "ARGs": [
+        {
+            "Sequence": "MRTLVLGLLLMTLSLTSRAEDPPQALYGHLPYAAAPQESLVAFCQGSSNMLRKEAAQVVAVMVEAAKAEGVTLRPVSCFRSVATQDWLFYGIAKQRGQTPEQRARVSAPPGHSEHHTGYAIDFGDKDRGADLDPAFAKTPAGQWLLAHGPEYGFELSFPDGNTQGVSYEPWHWRYVGTPEAMQTFRWARELFPANPAVAAP",
+            "ArgName": "vanY gene in vanF cluster",
+            "Cut_Off": "Strict",
+            "Identity": 33.33,
+            "Coverage": 68.6,
+            "Drug Class": "glycopeptide antibiotic",
+            "ARO": "3002958",
+            "InResfinder": "NA"
+        },
+        {
+            "Sequence": "MNHLFLVIAVVCEVIATSLLKATDGFTRLWPSLATIVGYGLAFYFLSLTVKTLPVGIVYALWCGIGIVLVTIVGWVVLKQPLDAPALVGMGLILGGCRGHQSLLKNRRALTVKRSPYDLHILHRSTAT",
+            "ArgName": "qacJ",
+            "Cut_Off": "Strict",
+            "Identity": 50.6,
+            "Coverage": 119.63,
+            "Drug Class": "disinfecting agents and antiseptics",
+            "ARO": "3007014",
+            "InResfinder": "NA"
+        }
+    ]
+}
