@@ -3,6 +3,17 @@ import Csv.Decode as Decode exposing (Decoder)
 
 import DataModel exposing (MAG)
 
+truthy : String -> Bool
+truthy str =
+    List.member
+        (String.toLower str)
+        [ "true"
+        , "yes"
+        , "y"
+        , "t"
+        , "1"
+        ]
+
 decoder : Decoder MAG
 decoder =
     Decode.into MAG
@@ -18,7 +29,7 @@ decoder =
         |> Decode.pipeline (Decode.field "#trna" Decode.int)
         |> Decode.pipeline (Decode.field "nr_contigs" Decode.int)
         |> Decode.pipeline (Decode.field "nr_genes" Decode.int)
-        |> Decode.pipeline (Decode.field "is_representative" (Decode.string |> Decode.map (\x -> x == "True")))
+        |> Decode.pipeline (Decode.field "is_representative" (Decode.string |> Decode.map truthy))
         |> Decode.pipeline (Decode.field "binning_tool" Decode.string)
         |> Decode.pipeline (Decode.field "assembly_method" Decode.string)
         |> Decode.pipeline (Decode.field "comment" Decode.string)
