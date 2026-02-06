@@ -1,15 +1,1 @@
-{
-    "16S": [],
-    "ARGs": [
-        {
-            "Sequence": "MLILTRRVGETLMIGDNVTVTVLGVKGNQVRIGINAPKDLAVHREEIYQRIKREQQDPGQAPLGDGPNEVG",
-            "ArgName": "rsmA",
-            "Cut_Off": "Strict",
-            "Identity": 80.33,
-            "Coverage": 116.39,
-            "Drug Class": "fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic",
-            "ARO": "3005069",
-            "InResfinder": "NA"
-        }
-    ]
-}
+{"16S": [], "ARGs": [{"Sequence": "MLILTRRVGETLMIGDNVTVTVLGVKGNQVRIGINAPKDLAVHREEIYQRIKREQQDPGQAPLGDGPNEVG", "ArgName": "rsmA", "Cut_Off": "Strict", "Identity": 80.33, "Coverage": 116.39, "Drug Class": "fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic", "ARO": "ARO:3005069", "InResfinder": false}]}

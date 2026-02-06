@@ -1,15 +1,1 @@
-{
-    "16S": [],
-    "ARGs": [
-        {
-            "Sequence": "MQENKVRNLEIACPTIDGILIGPGQTFSFWRQLGEATARKGYLEGMQLSSGEVVRGVGGGLCQLANLLYWMALHTPLNIAERHHHSFPIRFPMRIVSSVWQWCRRVL",
-            "ArgName": "vanW gene in vanG cluster",
-            "Cut_Off": "Strict",
-            "Identity": 50.0,
-            "Coverage": 38.08,
-            "Drug Class": "glycopeptide antibiotic",
-            "ARO": "3002965",
-            "InResfinder": "NA"
-        }
-    ]
-}
+{"16S": [], "ARGs": [{"Sequence": "MQENKVRNLEIACPTIDGILIGPGQTFSFWRQLGEATARKGYLEGMQLSSGEVVRGVGGGLCQLANLLYWMALHTPLNIAERHHHSFPIRFPMRIVSSVWQWCRRVL", "ArgName": "vanW gene in vanG cluster", "Cut_Off": "Strict", "Identity": 50.0, "Coverage": 38.08, "Drug Class": "glycopeptide antibiotic", "ARO": "ARO:3002965", "InResfinder": false}]}

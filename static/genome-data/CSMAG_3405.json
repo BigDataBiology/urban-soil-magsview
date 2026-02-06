@@ -1,15 +1,1 @@
-{
-    "16S": [],
-    "ARGs": [
-        {
-            "Sequence": "MPTIQQLVRSGRTSRKDKTKAPALKGSPQRRGVCTRVYTMTPKKPNSALRKVARVRLTSQIEVTAYIPGVGHNLQEHSIVLVRAGRVRDLPGVRYKVIRGTLDTAGVKDRKKARSRYGAKKGGE",
-            "ArgName": "Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin",
-            "Cut_Off": "Strict",
-            "Identity": 82.64,
-            "Coverage": 100.0,
-            "Drug Class": "aminoglycoside antibiotic",
-            "ARO": "3003395",
-            "InResfinder": "NA"
-        }
-    ]
-}
+{"16S": [], "ARGs": [{"Sequence": "MPTIQQLVRSGRTSRKDKTKAPALKGSPQRRGVCTRVYTMTPKKPNSALRKVARVRLTSQIEVTAYIPGVGHNLQEHSIVLVRAGRVRDLPGVRYKVIRGTLDTAGVKDRKKARSRYGAKKGGE", "ArgName": "Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin", "Cut_Off": "Strict", "Identity": 82.64, "Coverage": 100.0, "Drug Class": "aminoglycoside antibiotic", "ARO": "ARO:3003395", "InResfinder": false}]}

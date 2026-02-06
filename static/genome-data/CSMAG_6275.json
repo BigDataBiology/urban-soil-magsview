@@ -1,15 +1,1 @@
-{
-    "16S": [],
-    "ARGs": [
-        {
-            "Sequence": "MNKYWLYLAIAIVSEVIATSALKPSEGFTRPLPSVLVVVGYGVAFYFLSLTLRAIPIGITYAVWSGVGVALITLIGWLVFGQKLDMASLVGIGLIVSGVLVIHLFSKSSAH",
-            "ArgName": "qacG",
-            "Cut_Off": "Strict",
-            "Identity": 45.71,
-            "Coverage": 103.74,
-            "Drug Class": "disinfecting agents and antiseptics",
-            "ARO": "3007015",
-            "InResfinder": "NA"
-        }
-    ]
-}
+{"16S": [], "ARGs": [{"Sequence": "MNKYWLYLAIAIVSEVIATSALKPSEGFTRPLPSVLVVVGYGVAFYFLSLTLRAIPIGITYAVWSGVGVALITLIGWLVFGQKLDMASLVGIGLIVSGVLVIHLFSKSSAH", "ArgName": "qacG", "Cut_Off": "Strict", "Identity": 45.71, "Coverage": 103.74, "Drug Class": "disinfecting agents and antiseptics", "ARO": "ARO:3007015", "InResfinder": false}]}

@@ -1,15 +1,1 @@
-{
-    "16S": [],
-    "ARGs": [
-        {
-            "Sequence": "MHDLDYSACVPVDSIEAYAARIDEILTNLQVPPDHPARRLQPFVPEAAEVISIGLDVFGREQFLVPEVAEQWAALQRAAAHDGVELQVVSAFRSVERQYRIFERKLAAGQTIDDILRVNALPGCSEHHSGRALDLTTPGVEPLSEVFEQTDAFAWLTRSATDCGLRLSYPRGNPFGVVYEPWHWYFLVRSEWS",
-            "ArgName": "vanY gene in vanM cluster",
-            "Cut_Off": "Strict",
-            "Identity": 29.79,
-            "Coverage": 82.83,
-            "Drug Class": "glycopeptide antibiotic",
-            "ARO": "3002961",
-            "InResfinder": "NA"
-        }
-    ]
-}
+{"16S": [], "ARGs": [{"Sequence": "MHDLDYSACVPVDSIEAYAARIDEILTNLQVPPDHPARRLQPFVPEAAEVISIGLDVFGREQFLVPEVAEQWAALQRAAAHDGVELQVVSAFRSVERQYRIFERKLAAGQTIDDILRVNALPGCSEHHSGRALDLTTPGVEPLSEVFEQTDAFAWLTRSATDCGLRLSYPRGNPFGVVYEPWHWYFLVRSEWS", "ArgName": "vanY gene in vanM cluster", "Cut_Off": "Strict", "Identity": 29.79, "Coverage": 82.83, "Drug Class": "glycopeptide antibiotic", "ARO": "ARO:3002961", "InResfinder": false}]}

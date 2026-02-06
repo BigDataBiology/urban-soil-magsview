@@ -1,15 +1,1 @@
-{
-    "16S": [],
-    "ARGs": [
-        {
-            "Sequence": "MSDPKVTGLNHLTFAVSDLGRSIRFYCDVLGCKLRAQWKDGAYLEAGSLWLCLSLDTTTRATPHPDYTHAAFSVSPEDFDALCMRVRREAVVWKENRSEGPSLYFWTQTATNWSCISARLSRASHIIVRTRPRTL",
-            "ArgName": "FosA8",
-            "Cut_Off": "Strict",
-            "Identity": 55.34,
-            "Coverage": 95.74,
-            "Drug Class": "phosphonic acid antibiotic",
-            "ARO": "3007371",
-            "InResfinder": "NA"
-        }
-    ]
-}
+{"16S": [], "ARGs": [{"Sequence": "MSDPKVTGLNHLTFAVSDLGRSIRFYCDVLGCKLRAQWKDGAYLEAGSLWLCLSLDTTTRATPHPDYTHAAFSVSPEDFDALCMRVRREAVVWKENRSEGPSLYFWTQTATNWSCISARLSRASHIIVRTRPRTL", "ArgName": "FosA8", "Cut_Off": "Strict", "Identity": 55.34, "Coverage": 95.74, "Drug Class": "phosphonic acid antibiotic", "ARO": "ARO:3007371", "InResfinder": true}]}
