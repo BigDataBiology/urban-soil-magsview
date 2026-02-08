@@ -338,11 +338,6 @@ showMag model mag =
                     [Html.text "FASTA file (sequence)" ]
                 ]
             , Html.li []
-                [ Html.a
-                    [HtmlAttr.href (mkENOGLink mag.id)]
-                    [Html.text "Eggnog-mapper annotations" ]
-                ]
-            , Html.li []
                 [ Html.text "RGI predictions (antibiotic resistance genes)" ]
             ]
         ]]

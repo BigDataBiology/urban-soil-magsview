@@ -19,43 +19,33 @@ page shared route =
         , update = \_ _ -> ({}, Effect.none)
         , subscriptions = \_ -> Sub.none
         , view = \_ ->
-            { title = "Shanghai dog gut MAGs"
+            { title = "Urban soil MAGs"
             , body = [mdToHtml content]
             }
     } |> Page.withLayout (\_ -> Layouts.Main {})
 
 content : String
 content = """
-## Shanghai dog gut microbiome
+## Urban soil microbiome
 
-> _Capturing global pet dog gut microbial diversity and hundreds of
-> near-finished bacterial genomes by using long-read metagenomics in a Shanghai
-> cohort_ by Anna Cuscó, Yiqian Duan, Fernando Gil, Alexei Chklovski, Nithya
-> Kruthi, Shaojun Pan, Sofia Forslund, Susanne Lau, Ulrike  Löber, Xing-Ming
-> Zhao, and Luis Pedro Coelho (bioRxiv PREPRINT 2025,
-> [DOI:10.1101/2025.09.17.676595](https://doi.org/10.1101/2025.09.17.676595))
+> _Long-read metagenomic sequencing reveals novel lineages and functional 
+> diversity in urban soil microbiome_ by Yiqian Duan, Anna Cuscó, Chengkai Zhu, 
+> Yaozhong Zhang, Alexandre Areias Castro, Xinrun Yang, Jiabao Yu, Gaofei Jiang, 
+> Xing-Ming Zhao, and Luis Pedro Coelho 
 
-Dogs are part of the family, and learning about their gut microbes can tell us
-a lot about both their health and the household they live in. Most studies of
-the dog gut microbiome so far have used short-read sequencing, which breaks
-up genomes and misses important pieces like mobile elements, resistance genes,
-and ribosomal genes.
+City parks and other urban green spaces can bring significant benefits to the 
+physical and mental health of city residents. Most studies of the urban soil 
+microbiome so far have used short-read sequencing, which breaks up genomes and 
+misses important pieces like ribosomal genes and mobile elements.
 
-![Shanghai dog](/images/Fig1a.svg)
+![Shanghai dog](/images/fig1a.svg)
 
 For this project, we used deep long-read sequencing (ONT), polished with
-short reads (Illumina) on stool samples from 51 pet dogs in Shanghai. This gave
-us **2,676 high-quality genomes** from **320 different bacterial species**. In
-total, 72% of them are close to finished quality, _often better than the
-available reference genomes_.
+short reads (Illumina) on 58 soil samples from university campuses, parks 
+located in two major cities from China. This gave us **7,949 high-quality genomes** 
+from **4,171 different species**. In total, 1,060 MAGs are close to finished 
+quality, _often better than the available reference genomes_.
 
-![Shanghai dog](/images/Fig1e.svg)
-
-When we compared our data to other dog microbiome datasets from around the
-world, we found strong overlap (with over 90% of reads mapping to our genomes),
-showing that what we see in _Shanghai dogs reflects pet dogs globally_.
-
-In addition to the genomes, we recovered circular extrachromosomal elements and
-built gene catalogs (including a catalog of putative small proteins).
+In addition to the genomes, we revealed extensive secondary metabolic capacity and 
+uncovered over 2 million small protein families.
 """
-
