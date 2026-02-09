@@ -38,7 +38,7 @@ physical and mental health of city residents. Most studies of the urban soil
 microbiome so far have used short-read sequencing, which breaks up genomes and 
 misses important pieces like ribosomal genes and mobile elements.
 
-![Shanghai dog](/images/fig1a.svg)
+![Shanghai dog](/images/Fig1a.svg)
 
 For this project, we used deep long-read sequencing (ONT), polished with
 short reads (Illumina) on 58 soil samples from university campuses, parks 
