@@ -181,7 +181,7 @@ view model =
     let
         m = model
     in
-        { title = "Shanghai dog gut MAGs: Taxonomy explorer"
+        { title = "Urban soil MAGs: Taxonomy explorer"
         , body =
             [ Html.div []
                 [ Html.h1 []

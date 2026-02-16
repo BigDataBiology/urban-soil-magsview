@@ -161,7 +161,7 @@ update msg model =
                 tsv = mkTSV model
             in
                 ( model
-                , Effect.sendCmd <| Download.string "SHD1_selected_genomes.tsv" "text/tab-separated-values" tsv
+                , Effect.sendCmd <| Download.string "urban_soil_selected_genomes.tsv" "text/tab-separated-values" tsv
                 )
         OnHover hovering ->
             ({ model | hovering = hovering }, Effect.none)
@@ -325,7 +325,7 @@ view model =
                     ] [ Html.text (if model.showFullTaxonomy then " [collapse]" else " [expand]") ]
                 ]
     in
-        { title = "Shanghai dog gut MAGs: Genomes table"
+        { title = "Urban soil MAGs: Genomes table"
         , body =
             [ Html.div []
                 [ Html.h1 []
