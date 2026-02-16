@@ -162,13 +162,13 @@ chartQualityScatter onHover hovering sel =
     -- so that the representative genomes are on top
     , C.series .completeness
         [C.scatter .contamination
-            [CA.color "orange"]
+            [CA.color "orange", CA.size 1]
               |> C.amongst hovering (\datum -> [ CA.highlight 0.5 ])
               |> C.named "Non-representative"
         ] (sel |> List.filter (.isRepresentative >> not))
 
     , C.series .completeness
-        [C.scatter .contamination [CA.color "green"]
+        [C.scatter .contamination [CA.color "green", CA.size 1]
               |> C.amongst hovering (\datum -> [ CA.highlight 0.5 ])
               |> C.named "Representative"
 
