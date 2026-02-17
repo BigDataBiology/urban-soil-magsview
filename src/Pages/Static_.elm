@@ -88,10 +88,10 @@ contentManuscript : String
 contentManuscript = """
 ## Manuscript
 
-> _Long-read metagenomic sequencing reveals novel lineages and functional 
-> diversity in urban soil microbiome_ by Yiqian Duan, Anna Cuscó, Chengkai Zhu, 
-> Yaozhong Zhang, Alexandre Areias Castro, Xinrun Yang, Jiabao Yu, Gaofei Jiang, 
-> Xing-Ming Zhao, and Luis Pedro Coelho 
+> _Long-read metagenomic sequencing reveals novel lineages and functional
+> diversity in urban soil microbiome_ by Yiqian Duan, Anna Cuscó, Yaozhong Zhang,
+> Juan S. Inda-Díaz, Chengkai Zhu, Alexandre Areias Castro, Xinrun Yang, Jiabao Yu,
+> Gaofei Jiang, Xing-Ming Zhao, and Luis Pedro Coelho (in preparation, [draft available upon request](mailto:luispedro.coelho@qut.edu.au))
 
 """
 
