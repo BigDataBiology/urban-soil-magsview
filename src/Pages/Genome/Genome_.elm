@@ -451,45 +451,62 @@ showARGs model mag =
             if List.isEmpty magdata.argData then
                 Html.p [] [Html.text "No ARGs found for this genome."]
             else
-                Table.table
-                    { options = [ Table.striped, Table.hover, Table.responsive ]
-                    , thead = Table.simpleThead
-                                        [ Table.th []
-                                            [ Html.text "Sequence"
-                                            , Html.span [HE.onClick ToggleShowARGSequences]
-                                                [ Html.text <| (if model.showARGSequences then " (collapse)" else " (expand)")
+                let
+                    hasLowThreshold = List.any (\arg -> arg.matchID < 80) magdata.argData
+                in
+                Html.div []
+                    [ Table.table
+                        { options = [ Table.striped, Table.hover, Table.responsive ]
+                        , thead = Table.simpleThead
+                                            [ Table.th []
+                                                [ Html.text "Sequence"
+                                                , Html.span [HE.onClick ToggleShowARGSequences]
+                                                    [ Html.text <| (if model.showARGSequences then " (collapse)" else " (expand)")
+                                                    ]
+                                                ]
+                                            , Table.th []
+                                                [ Html.text "ARG Name" ]
+                                            , Table.th []
+                                                [ Html.text "Match category (RGI)" ]
+                                            , Table.th []
+                                                [ Html.text "Match ID (%)" ]
+                                            , Table.th []
+                                                [ Html.text "Fraction Match (%)" ]
+                                            , Table.th []
+                                                [ Html.text "Drug Class(es)" ]
+                                            , Table.th []
+                                                [ Html.text "In ResFinder?"
+                                                , mkTooltipQuestionMark
+                                                    ("The ResFinder database focuses on clinically relevant ARGs.")
                                                 ]
                                             ]
-                                        , Table.th []
-                                            [ Html.text "ARG Name" ]
-                                        , Table.th []
-                                            [ Html.text "Match category (RGI)" ]
-                                        , Table.th []
-                                            [ Html.text "Match ID (%)" ]
-                                        , Table.th []
-                                            [ Html.text "Fraction Match (%)" ]
-                                        , Table.th []
-                                            [ Html.text "Drug Class(es)" ]
-                                        , Table.th []
-                                            [ Html.text "In ResFinder?"
-                                            , mkTooltipQuestionMark
-                                                ("The ResFinder database focuses on clinically relevant ARGs.")
-                                            ]
-                                        ]
-                , tbody = Table.tbody []
-                        (magdata.argData
-                            |> List.map (\arg ->
-                                    Table.tr []
-                                        [Table.td [] [Html.p [HtmlAttr.class "sequence"]
-                                            [Html.text <| (if model.showARGSequences then arg.seq else String.slice 0 30 arg.seq ++ "...")]]
-                                        ,Table.td [] [Html.text <| arg.argName ++ " "
-                                                     ,Html.a [HtmlAttr.href <| "https://card.mcmaster.ca/" ++ arg.aro]
-                                                        [Html.text <| "(" ++ arg.aro ++ ")"]]
-                                        ,Table.td [] [Html.text arg.cutOff]
-                                        ,Table.td [] [Html.text <| String.fromFloat arg.matchID]
-                                        ,Table.td [] [Html.text <| String.fromFloat arg.fractionMatch]
-                                        ,Table.td [] [Html.text arg.drugClass]
-                                        ,Table.td [] [Html.text (if arg.inResfinder then "✔" else "✘")]
-                                        ])
-                            )
-                }
+                    , tbody = Table.tbody []
+                            (magdata.argData
+                                |> List.map (\arg ->
+                                    let
+                                        lowThreshold = arg.matchID < 80
+                                        greyStyle = if lowThreshold
+                                            then [ Table.rowAttr <| HtmlAttr.style "color" "#555"
+                                                 ]
+                                            else []
+                                    in
+                                        Table.tr greyStyle
+                                            [Table.td [] [Html.p [HtmlAttr.class "sequence"]
+                                                [Html.text <| (if model.showARGSequences then arg.seq else String.slice 0 30 arg.seq ++ "...")]]
+                                            ,Table.td [] [Html.text <| arg.argName ++ " "
+                                                         ,Html.a [HtmlAttr.href <| "https://card.mcmaster.ca/" ++ arg.aro]
+                                                            [Html.text <| "(" ++ arg.aro ++ ")"]]
+                                            ,Table.td [] [Html.text arg.cutOff]
+                                            ,Table.td [] [Html.text <| String.fromFloat arg.matchID]
+                                            ,Table.td [] [Html.text <| String.fromFloat arg.fractionMatch]
+                                            ,Table.td [] [Html.text arg.drugClass]
+                                            ,Table.td [] [Html.text (if arg.inResfinder then "✔" else "✘")]
+                                            ])
+                                )
+                    }
+                    , if hasLowThreshold then
+                        Html.p [HtmlAttr.style "font-size" "small", HtmlAttr.style "color" "#555"]
+                            [Html.text "Greyed-out hits (below 80% identity) are shown for completeness but were not used in the analyses."]
+                      else
+                        Html.text ""
+                    ]
